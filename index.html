@@ -1,28 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>🏠YY🏠</title>
-	<link rel="stylesheet" href="css/MDlight.css">
-</head>
-<body>
-	<h1>HomePage</h1>
-	<div>
-		<h2>My blog</h2>
-		<p></p>
-		<a href="http://jiayuyang.cn"><img src="img/HomePage.png" alt="主页" title="主页"></a>
-	</div>
-	<div>
-		<h2>Chicken Game</h2>
-		<p>小猪佩奇里的小鸡游戏，最好用JS做出来玩。</p>
-		<img src="img/chicken100.png" alt="">
-	</div>
-	<div>
-		<h2>先来玩一下edge游戏</h2>
-		<p></p>
-		<a href="edge://surf/"><img src="img/surf.jpg" alt="suf" title="冲浪游戏">冲浪</a>
-	</div>
-</body>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 针对IE渲染,可删 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <!-- meta定义viewport以避免浏览器自行定义预设值【显示效果很糟糕】及可媒体查询 -->
+    <!-- width指css像素，device-width指独立像素，设置二者相等是关键的步骤 -->
+    <!-- 设置width=device-width，放一个占满屏幕宽度的图片，就可以写width:100%; -->
+    <!-- initial-scale设置页面初始加载出来时的缩放比例，设为1，就是不缩放，和写代码预想的页面一样。 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>🏛️😄🏛️</title>
+    
+    <!-- 使用 name 属性来定义一个 HTML 文档的描述 -->
+    <meta name="description" content="personal website" />
+    
+    <!-- 苹果为iOS设备配备了apple-touch-icon私有属性，添加该属性，在iPhone,iPad,iTouch的safari浏览器上可以使用添加到主屏按钮将网站添加到主屏幕上，这样我就可以在ipad上快速进入网站了——后面加上简洁导航网站，不看垃圾信息，只看需要的，以及方便定制个人计划。 -->    
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <!-- 引用 Font Awesome图标字体库和CSS框架。Font Awesome 字体为可缩放矢量图标,定制大小、颜色、阴影及CSS的样式。-->
+    <!-- 国内推荐 CDN：<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"> -->
+    <!-- 海外推荐CDN：<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- 不太建议下载到本地引用，直接在 html 文档头部引用 CDN 文件即可。不过为了保险起见，在根css中还是置入本地文件比较好，以免突然无法加载。目前网页先搭载到github上吧，码云这几个月整修，用不了，能用了还是换回来，国内快又方便 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- 字体css设定放第1位，设定根字体大小为62.5%，即 1rem = 10px，便于计算 -->
+    <link rel="stylesheet" href="css/font.css" />
+    
+    <!-- ！！！待加+++！！！小尺寸屏幕css样式先不做了，等后续有时间了加上——主要为了方便个人笔记，工作复盘以及日程记录。 -->
+
+    <!-- 主页面css，定制root及html的基值 -->
+    <link rel="stylesheet" href="css/index.css" />
+   
+  </head>
+
+  <body>
+    <nav>
+        <img src="img/YYall.svg" alt="portrait" height="30" />
+    </nav>
+
+    <div>
+      <i class="fa-li fa fa-spinner fa-spin"></i>
+    </div>
+    
+    <div id="videoContainer">
+      <video id="videoSpeed" autoplay loop muted >
+        <source src="./stars.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div>
+      <br />
+      <br />
+    </div>
+
+    <!-- JS插件调整速度，感觉像很卡，观感不舒服，暂时不用了 -->
+    <!-- <script type="text/javascript">
+      var video= document.getElementById('videoSpeed');
+      video.playbackRate = 0.5;
+    </script> -->
+  </body>
 </html>
