@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>😄</title>
+
+    <meta name="description" content="personal website" />
+    <!-- 使用 name 属性来定义一个 HTML 文档的描述 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 若没有在 meta 中定义 viewport，浏览器会自行定义给予预设值，而且显示效果很糟糕;若没有该标签，媒体查询也会失效 -->
+    <!-- width指的是css像素，device-width指的是独立像素，设置二者相等是关键的步骤 -->
+    <!-- 设置width=device-width，放一个占满屏幕宽度的图片，可以写图片像素1024px，也可以写100% -->
+    <!-- initial-scale=1.0 确保网页加载时，以 1:1 的比例呈现，不会有任何的缩放。 -->
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <!-- 苹果为iOS设备配备了apple-touch-icon私有属性，添加该属性，在iPhone,iPad,iTouch的safari浏览器上可以使用添加到主屏按钮将网站添加到主屏幕上，方便用户以后访问。 -->
+
+    <link rel="stylesheet" href="css/font.css" />
+    <!-- 字体css设定放第1位，设定根字体大小为62.5%，即 1rem = 10px，便于计算 -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="css/fontAwesome.css" />
+    <link rel="stylesheet" href="css/light-box.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+
+    <link
+      href="https://fonts.useso.com/css?family=Kanit:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script type="text/javascript">
+      var video = document.getElementById("videoSpeed");
+      video.playbackRate = 0.1;
+    </script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="index.html">贾<em>玉阳</em></a>
+      </div>
+      <div class="menu-icon">
+        <span></span>
+      </div>
+    </nav>
+
+    <div id="video-container">
+      <div class="video-overlay"></div>
+      <div class="video-content">
+        <div class="inner">
+          <img
+            id="portrait"
+            src="img/img_yy/YYall.svg"
+            onmouseover="this.src='img/img_yy/YYreal.svg'"
+            onmouseout="this.src='img/img_yy/YYall.svg'"
+            alt="portrait"
+            height="200"
+          />
+          <!-- <p>.........</p> -->
+          <br>
+          <p>文·化·恒·常 · 建·筑·意·境</p>
+          <div class="scroll-icon">
+            <a class="scrollTo" data-scrollTo="portfolio" href="#"
+              ><img src="img/scroll-icon.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <video autoplay="" loop="" muted>
+        <source id="videoSpeed" src="stars.mp4" type="video/mp4" />
+      </video>
+    </div>
+    
+    <!-- 项目01 -->   <!-- SH-taopu-huliyuan -->
+    <div class="full-screen-portfolio" id="portfolio">
+      <div class="container-fluid">
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <a href="img/img_project/care-01.jpg" data-lightbox="image-1">
+              <div class="thumb">
+                <div class="hover-effect">
+                  <div class="hover-content">
+                    <h1>Retirement<small>& Nursing</small></h1>
+                    <p>No implemented</p>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="img/img_project/care-00-02-small.jpg" />
+                </div>
+              </div>
+            </a>
+            <a href="img/img_project/care-02.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/care-03.jpg" data-lightbox="image-1"></a>
+          </div>
+        </div>
+        
+        <!-- 项目02 -->   <!-- xz-school -->
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <a href="img/img_project/xuexiao-01.jpg" data-lightbox="image-1">
+              <div class="thumb">
+                <div class="hover-effect">
+                  <div class="hover-content">
+                    <h1>Education</h1>
+                    <p>Suspended</p>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="img/img_project/xuexiao-00-02-small.jpg" />
+                </div>
+              </div>
+            </a>
+            <a href="img/img_project/xuexiao-02.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/xuexiao-03.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/xuexiao-04.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/xuexiao-05.jpg" data-lightbox="image-1"></a>
+          </div>
+        </div>
+
+        <!-- 项目03 -->   <!-- hz-wlgc -->
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <a href="img/img_project/HZ-F1-01.jpg" data-lightbox="image-1">
+              <div class="thumb">
+                <div class="hover-effect">
+                  <div class="hover-content">
+                    <h1>Renovation</h1>
+                    <p>No implemented</p>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="img/img_project/HZ-F1-00-02-small.jpg" />
+                </div>
+              </div>
+            </a>
+            <a href="img/img_project/HZ-F1-02.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/HZ-F1-03.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/HZ-F1-04.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/HZ-F1-05.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/HZ-F2-01.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/HZ-F2-02.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/HZ-F2-03.jpg" data-lightbox="image-1"></a>
+          </div>
+        </div>
+
+        <!-- 项目04 -->   <!-- suiyang-gaizao -->
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <a href="img/img_project/SY-F1-01.jpg" data-lightbox="image-1">
+              <div class="thumb">
+                <div class="hover-effect">
+                  <div class="hover-content">
+                    <h1>Renovation</h1>
+                    <p>Completion</p>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="img/img_project/SY-F1-00-small.jpg" />
+                </div>
+              </div>
+            </a>
+            <a href="img/img_project/SY-F1-02.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/SY-F2-01.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/SY-F3-01.jpg" data-lightbox="image-1"></a>
+          </div>
+        </div>
+
+        <!-- 项目05 -->   <!-- shangyao-gaizao -->
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <a href="img/img_project/SH-01.jpg" data-lightbox="image-1">
+              <div class="thumb">
+                <div class="hover-effect">
+                  <div class="hover-content">
+                    <h1>Renovation</h1>
+                    <p>Awesome but unsuccessful</p>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="img/img_project/SH-00-02-samll.jpg" />
+                </div>
+              </div>
+            </a>
+            <a href="img/img_project/SH-02.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/SH-03.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/SH-04.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/SH-05.jpg" data-lightbox="image-1"></a>
+          </div>
+        </div>
+
+        <!-- 项目06 -->   <!-- zz-dashiqiao-shanggai -->
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <a href="img/img_project/ZZ-01.jpg" data-lightbox="image-1">
+              <div class="thumb">
+                <div class="hover-effect">
+                  <div class="hover-content">
+                    <h1>TOD</h1>
+                    <p>Unsuccessful</p>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="img/img_project/ZZ-00-02-small.jpg" />
+                </div>
+              </div>
+            </a>
+            <a href="img/img_project/ZZ-02.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/ZZ-03.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/ZZ-04.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/ZZ-05.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/ZZ-06.jpg" data-lightbox="image-1"></a>
+          </div>
+        </div>
+
+        <!-- 项目07 -->   <!-- AnH-zongyang-fangshiwenhuayuan -->
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <a href="img/img_project/TL-01.jpg" data-lightbox="image-1">
+              <div class="thumb">
+                <div class="hover-effect">
+                  <div class="hover-content">
+                    <h1>Culture</h1>
+                    <p>Completion</p>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="img/img_project/TL-00-01-small.jpg" />
+                </div>
+              </div>
+            </a>
+            <a href="img/img_project/TL-02.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/TL-03.jpg" data-lightbox="image-1"></a>
+          </div>
+        </div>
+
+        <!-- 项目08 -->   <!-- HaiNing-chanyeyuan -->
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <a href="img/img_project/HN-01.jpg" data-lightbox="image-1">
+              <div class="thumb">
+                <div class="hover-effect">
+                  <div class="hover-content">
+                    <h1>Industrial<small>parking</small></h1>
+                    <p>Concept</p>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="img/img_project/HN-00-02-small.jpg" />
+                </div>
+              </div>
+            </a>
+            <a href="img/img_project/HN-02.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/HN-03.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/HN-04.jpg" data-lightbox="image-1"></a>
+          </div>
+        </div>
+
+        <!-- 项目09 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="portfolio-item">
+            <a href="img/img_project/zb-01.jpg" data-lightbox="image-1">
+              <div class="thumb">
+                <div class="hover-effect">
+                  <div class="hover-content">
+                    <h1>Office</h1>
+                    <p>Origin</p>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="img/img_project/zb-00-02-small.jpg" />
+                </div>
+              </div>
+            </a>
+            <a href="img/img_project/zb-02.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/zb-03.jpg" data-lightbox="image-1"></a>
+            <a href="img/img_project/zb-04.jpg" data-lightbox="image-1"></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="col-md-12">
+          <p>Copyright &copy; 2021 YY </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal button -->
+    <div class="popup-icon">
+      <button id="modBtn" class="modal-btn">
+        <img src="img/contact-icon.png" alt="" />
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <!-- Modal Content -->
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h3 class="header-title">我的微信</h3>
+          <h4 class="header-title"> <em> My Weichat </em> </h4>
+          <img src="img/img_yy/MyWechat.jpg" alt="Weichat" width="300px">
+          <div class="close-btn">
+            <img src="img/close_contact.png" alt="" />
+          </div>
+        </div>
+        <!-- Modal Body -->
+        <div class="modal-body">
+          <div class="col-md-6 col-md-offset-3">
+            <form id="contact" action="" method="post">
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="WeChat.html"target="_blank" title="😄欢迎交流，非当面邀请请说明喔">微信</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="overlay-menu">
+      <div class="container">
+        <div class="row">
+          <div class="main-menu">
+            <ul>
+              <li>
+                <a href="index.html">主页 <h5><em>Home</em> </h5> </a>
+              </li>
+              <li>
+                <a href="https://www.yuque.com/yuyangjia" target="_blank" title="📕个人梳理及记录">语雀空间 <h5><em>My Space</em> </h5> </a>
+              </li>
+              <li>
+                <a href="https://github.com/tudoubuhuai" target="_blank" title="😅不用去看了，暂未有能力贡献">我的Github  <h5><em>My Github</em> </h5> </a>
+              </li>
+              <li>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
+        );
+    </script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+
+<!-- 邮箱设置还未完成 -->
